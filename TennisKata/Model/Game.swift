@@ -37,9 +37,10 @@ class Game {
         switch score {
         case 0:
             return "love"
-        default:
+        case 1:
             return "fifteen"
+        default:
+            return "thirty"
         }
     }
 }
-//Player 1 fifteen - Player 2 love
