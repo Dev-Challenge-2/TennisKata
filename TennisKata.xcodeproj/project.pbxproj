@@ -15,6 +15,9 @@
 		4EFC35B224B3473800E19D85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFC35B024B3473800E19D85 /* LaunchScreen.storyboard */; };
 		4EFC35BD24B3473900E19D85 /* PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC35BC24B3473900E19D85 /* PlayerTests.swift */; };
 		4EFC35C824B3496400E19D85 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC35C724B3496400E19D85 /* Player.swift */; };
+		4EFC35CC24B3703B00E19D85 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC35CB24B3703B00E19D85 /* GameTests.swift */; };
+		4EFC35CE24B3728700E19D85 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC35CD24B3728700E19D85 /* Game.swift */; };
+		4EFC35D024B3779D00E19D85 /* TennisKataConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC35CF24B3779D00E19D85 /* TennisKataConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		4EFC35BC24B3473900E19D85 /* PlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTests.swift; sourceTree = "<group>"; };
 		4EFC35BE24B3473900E19D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EFC35C724B3496400E19D85 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		4EFC35CB24B3703B00E19D85 /* GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
+		4EFC35CD24B3728700E19D85 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		4EFC35CF24B3779D00E19D85 /* TennisKataConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisKataConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				4EFC35C724B3496400E19D85 /* Player.swift */,
+				4EFC35CD24B3728700E19D85 /* Game.swift */,
+				4EFC35CF24B3779D00E19D85 /* TennisKataConstants.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -114,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				4EFC35BC24B3473900E19D85 /* PlayerTests.swift */,
+				4EFC35CB24B3703B00E19D85 /* GameTests.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -220,6 +229,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EFC35C824B3496400E19D85 /* Player.swift in Sources */,
+				4EFC35D024B3779D00E19D85 /* TennisKataConstants.swift in Sources */,
+				4EFC35CE24B3728700E19D85 /* Game.swift in Sources */,
 				4EFC35AA24B3473700E19D85 /* ViewController.swift in Sources */,
 				4EFC35A624B3473700E19D85 /* AppDelegate.swift in Sources */,
 				4EFC35A824B3473700E19D85 /* SceneDelegate.swift in Sources */,
@@ -231,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EFC35BD24B3473900E19D85 /* PlayerTests.swift in Sources */,
+				4EFC35CC24B3703B00E19D85 /* GameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
