@@ -13,7 +13,7 @@
 		4EFC35AD24B3473700E19D85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFC35AB24B3473700E19D85 /* Main.storyboard */; };
 		4EFC35AF24B3473800E19D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EFC35AE24B3473800E19D85 /* Assets.xcassets */; };
 		4EFC35B224B3473800E19D85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFC35B024B3473800E19D85 /* LaunchScreen.storyboard */; };
-		4EFC35BD24B3473900E19D85 /* TennisKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC35BC24B3473900E19D85 /* TennisKataTests.swift */; };
+		4EFC35BD24B3473900E19D85 /* PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC35BC24B3473900E19D85 /* PlayerTests.swift */; };
 		4EFC35C824B3496400E19D85 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC35C724B3496400E19D85 /* Player.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +37,7 @@
 		4EFC35B124B3473800E19D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EFC35B324B3473800E19D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EFC35B824B3473900E19D85 /* TennisKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TennisKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EFC35BC24B3473900E19D85 /* TennisKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisKataTests.swift; sourceTree = "<group>"; };
+		4EFC35BC24B3473900E19D85 /* PlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTests.swift; sourceTree = "<group>"; };
 		4EFC35BE24B3473900E19D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EFC35C724B3496400E19D85 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,7 +83,7 @@
 			children = (
 				4EFC35A524B3473700E19D85 /* AppDelegate.swift */,
 				4EFC35A724B3473700E19D85 /* SceneDelegate.swift */,
-				4EFC35C724B3496400E19D85 /* Player.swift */,
+				4EFC35C924B353B700E19D85 /* Model */,
 				4EFC35A924B3473700E19D85 /* ViewController.swift */,
 				4EFC35AB24B3473700E19D85 /* Main.storyboard */,
 				4EFC35AE24B3473800E19D85 /* Assets.xcassets */,
@@ -96,10 +96,26 @@
 		4EFC35BB24B3473900E19D85 /* TennisKataTests */ = {
 			isa = PBXGroup;
 			children = (
-				4EFC35BC24B3473900E19D85 /* TennisKataTests.swift */,
+				4EFC35CA24B353BF00E19D85 /* Model */,
 				4EFC35BE24B3473900E19D85 /* Info.plist */,
 			);
 			path = TennisKataTests;
+			sourceTree = "<group>";
+		};
+		4EFC35C924B353B700E19D85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC35C724B3496400E19D85 /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4EFC35CA24B353BF00E19D85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC35BC24B3473900E19D85 /* PlayerTests.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,7 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EFC35BD24B3473900E19D85 /* TennisKataTests.swift in Sources */,
+				4EFC35BD24B3473900E19D85 /* PlayerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
